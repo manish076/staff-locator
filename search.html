@@ -1,0 +1,72 @@
+<!-- The search form -->
+<div class="searchbar">
+    <input type="text" placeholder="Search..." id="searchInput">
+    <button type="submit" class="search" onclick="search()">Search</button>
+  </div>
+  
+  <script>
+    function search() {
+      const name = document.getElementById("searchInput").value;
+      const result = searchByName(name);
+      if (result) {
+        // If a matching element is found, create a new HTML page with the search results
+        const html = `
+          <!DOCTYPE html>
+          <html>
+            <head>
+              <title>Search Results for "${name}"</title>
+              <style>
+                .grid {
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr);
+                  gap: 20px;
+                }
+                .grid-item {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                }
+                .group9-ellipse2 {
+                  width: 150px;
+                  height: 150px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                }
+              </style>
+            </head>
+            <body>
+              <h1>Search Results for "${name}"</h1>
+              <div class="grid">
+                ${result.outerHTML}
+              </div>
+            </body>
+          </html>
+        `;
+        const newWindow = window.open("");
+        newWindow.document.write(html);
+      } else {
+        // If no matching element is found, alert the user
+        alert(`No results found for "${name}"`);
+      }
+    }
+  
+    function searchByName(name) {
+      // Get all the elements that contain the class name "group9-text4"
+      const elements = document.getElementsByClassName("group9-text4");
+  
+      // Loop through all the elements
+      for (let i = 0; i < elements.length; i++) {
+        const element = elements[i];
+  
+        // Check if the innerText of the element matches the name we are searching for
+        if (element.innerText === name) {
+          // If the name matches, return the parent element that contains all the information
+          return element.parentNode;
+        }
+      }
+  
+      // If no matching element is found, return null
+      return null;
+    }
+  </script>
+  

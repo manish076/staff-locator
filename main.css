@@ -1,0 +1,378 @@
+html {
+	font-size:62.5%;
+    overflow: scroll;
+}
+
+body {
+    background-color: rgba(25, 2, 93, 1);
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.staff{
+    margin-right: 27.7rem;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.26;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    position: absolute;
+    top: -20;
+    left:30 ;
+}
+
+.home-2 {
+  margin: 0rem 7.1rem 1.1rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.26;
+  color: #ffffff;
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  position: absolute;
+    top: 30;
+    left: 800; 
+  }
+
+.search {
+  width: 20.2rem;
+  height: 7.4rem;
+  position: absolute;
+  left: 1200;
+  top: 230;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.26;
+  color: #ffffff;
+  background-color: #ffffff00;
+  border-color: rgb(255, 255, 255);
+  font-family: Outfit, 'Source Sans Pro';
+  white-space: nowrap;
+  border-radius: 8.2rem
+}
+.searchbar {
+    width: 102.6rem;
+    height: 8.2rem;
+    position: absolute;
+    left: 120;
+    top: 220;
+    border: solid 0.1rem #000000;
+    box-sizing: border-box;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #d9d9d9;
+    border-radius: 90rem;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+}
+input[type="text"] 
+  {
+    
+    width: 102.6rem;
+    padding: 12px 20px;
+    height: 8.3rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+     font-size: 3rem;
+     font-weight: 600;
+     line-height: 1.26;
+     -moz-box-align: center;
+     background-color: #d9d9d9;
+     border-color: #ffffff00;
+     border-radius: 8rem
+    
+  }
+.CSbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 12;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.ISbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 160;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.EEbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 310;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.CIbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 460;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.ENCbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 610;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.ENCbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 610;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.MEbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 760;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.BTbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 910;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.AIDbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 1055;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.AIMbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 1200;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.CCbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 1345;
+    top: 350;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.RIbtn {
+    margin-right: 2.2rem; 
+    width: 13.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 590;
+    top: 430;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+.BSbtn {
+    margin-right: 2.2rem; 
+    width: 17.1rem;
+    height: 6.5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.26;
+    left: 750;
+    top: 430;
+    position: absolute;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a313a6;
+    border-radius: 17.4rem;
+    flex-shrink: 0;
+}
+ .embed-container {
+    position: absolute;
+    top: 800;
+    left: 0;
+    width: 80%;
+    height: calc(100% - 80px);
+    border: none;
+    z-index: 9999;
+  }
+ .frame {
+    width: 99%;
+    height: 100%;
+    position: absolute;
+    top:500;
+ }
+  
+ .lab {
+    margin: 0rem 7.1rem 1.1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.26;
+    color: #ffffff;
+    font-family: Outfit, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    position: absolute;
+    top: 30;
+    left: 950;
+ }
